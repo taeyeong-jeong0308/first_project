@@ -3,7 +3,7 @@ import json
 import re
 
 # 파일 불러오기
-df = pd.read_excel('./데이터 수집 및 전처리/모든_기업_정리2.xlsx')
+df = pd.read_excel('./데이터 수집 및 전처리/모든_기업_정리2 (2).xlsx')
 
 # 괄호 제거 등 컬럼 정제
 def clean_column(col):
