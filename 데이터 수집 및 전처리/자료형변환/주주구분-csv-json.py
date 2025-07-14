@@ -3,7 +3,7 @@ import json
 import os
 
 # 데이터 불러오기
-file_path = '코스피_주주구분현황_전체.csv'
+file_path = './데이터 수집 및 전처리/코스피_주주구분현황_전체.csv'
 df = pd.read_csv(file_path)
 
 # 숫자형 변환
