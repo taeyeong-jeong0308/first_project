@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 # ① 종목코드 데이터 불러오기
-df_codes = pd.read_excel("DART_재무_코스피전체_2024기준 (1).xlsx")
+df_codes = pd.read_excel("./데이터 수집 및 전처리/DART_재무_코스피전체_2024기준 (1).xlsx")
 codes = df_codes[['종목코드', '종목명']].dropna()
 
 # ② Selenium 설정
