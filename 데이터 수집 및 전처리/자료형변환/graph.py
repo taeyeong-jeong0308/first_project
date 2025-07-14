@@ -4,7 +4,7 @@ import re
 import json
 
 # ===== [1] 엑셀 불러오기 =====
-df = pd.read_excel("모든_기업_정리2.xlsx")
+df = pd.read_excel("./데이터 수집 및 전처리/모든_기업_정리2.xlsx")
 
 # ===== [2] 칼럼 이름 정리 =====
 def clean_column(col):
