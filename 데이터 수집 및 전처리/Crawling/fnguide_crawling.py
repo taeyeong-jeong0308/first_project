@@ -5,7 +5,7 @@ import pandas as pd
 import time
 from collections import Counter
 
-df = pd.read_excel(r'D:\bit_esg\python\project 2\DART_재무_코스피전체_2024기준 (1).xlsx')
+df = pd.read_excel('./데이터 수집 및 전처리/DART_재무_코스피전체_2024기준 (1).xlsx')
 df['종목코드'] = df['종목코드'].apply(lambda x: f"A{x:06d}")
 kospi_df = df[['종목명', '종목코드']].reset_index(drop=True)
 
