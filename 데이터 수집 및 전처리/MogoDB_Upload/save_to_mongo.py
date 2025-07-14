@@ -3,7 +3,7 @@ import numpy as np
 from pymongo import MongoClient
 
 # 엑셀 로드
-df = pd.read_excel("전처리_기업_데이터.xlsx")
+df = pd.read_excel("./데이터 수집 및 전처리/전처리_기업_데이터.xlsx")
 
 # 컬럼 정리
 df.columns = df.columns.str.strip()
