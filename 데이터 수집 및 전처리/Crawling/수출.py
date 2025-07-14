@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 # 종목코드 리스트 로딩
-df_codes = pd.read_excel(r"C:\Users\bitcamp\OneDrive\Desktop\pythontraning\DART_재무_코스피전체_2024기준 (1).xlsx")
+df_codes = pd.read_excel("./데이터 수집 및 전처리/DART_재무_코스피전체_2024기준 (1).xlsx")
 df_codes = df_codes[['종목코드', '종목명']].dropna()
 
 # 셀레니움 설정
